@@ -1,0 +1,19 @@
+from tkinter import * 
+from tkinter import messagebox
+  
+root = Tk()
+  
+messagebox.showinfo("showinfo", "Information") # The alert.
+  
+root.mainloop()
+
+from turtle import Turtle, Screen, TK
+
+t = Turtle()
+t.shape("turtle")
+t.color("green")
+t.forward(100)
+
+TK.messagebox.showinfo(title="The Turtle says:", message="Time for a nap!")
+
+Screen().exitonclick()
